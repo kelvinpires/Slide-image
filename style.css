@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70rem;
+  height: 48.2rem;
+}
+
+#root .arrow {
+  margin: 0 20px;
+}
+
+#root .arrow > i {
+  font-size: 3rem;
+  cursor: pointer;
+  color: white;
+  text-shadow: 1px 0px 2px #1e1e26;
+}
+
+#root .arrow > i:hover {
+  color: #d8d5d5;
+}
