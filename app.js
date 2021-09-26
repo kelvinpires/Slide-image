@@ -6,6 +6,7 @@ let i = 0;
 
 root.style.background = `url(./images/${images[0]})`;
 root.style.borderRadius = ".8rem";
+root.style.transition = "ease .4s";
 
 arrows.forEach((arrow) => {
   arrow.addEventListener("click", (e) => {
